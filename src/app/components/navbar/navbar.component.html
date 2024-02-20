@@ -4,52 +4,75 @@
       <img src="assets/svgs/logo.svg" alt="CONECT'ARTE" />
     </a>
 
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbar"
-      aria-controls="navbar"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+      aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div
-      class="collapse navbar-collapse d-flex justify-content-between"
-      id="navbar"
-    >
+    <div class="collapse navbar-collapse d-flex justify-content-between" id="navbar">
       <ul class="navbar-nav me-auto flex-grow-1 justify-content-center">
         <li class="nav-item">
-          <a
-            class="nav-link"
-            routerLink="/store"
-            routerLinkActive="active"
-            aria-current="page"
-          >
+          <a class="nav-link" routerLink="/store" routerLinkActive="active" aria-current="page">
             Loja
           </a>
         </li>
 
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categorias
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Alimentos
+              </a></li>
+            <li><a class="dropdown-item" href="#">Arte Digital
+              </a></li>
+            <li><a class="dropdown-item" href="#"> Bordado</a></li>
+
+            <li><a class="dropdown-item" href="#">Brinquedos
+              </a></li>
+
+            <li><a class="dropdown-item" href="#"> Cerâmica
+              </a></li>
+
+            <li><a class="dropdown-item" href="#">Cosméticos
+              </a></li>
+
+            <li><a class="dropdown-item" href="#">Crochê / Tricô / Macramê
+              </a></li>
+            <li><a class="dropdown-item" href="#"> Escultura
+              </a></li>
+            <li><a class="dropdown-item" href="#">Ilustração
+              </a></li>
+            <li><a class="dropdown-item" href="#">Jogos
+              </a></li>
+
+            <li><a class="dropdown-item" href="#">Joias
+              </a></li>
+            <li><a class="dropdown-item" href="#">Madeira /Marcenaria / MDF
+              </a></li>
+            <li><a class="dropdown-item" href="#">Mosaico
+              </a></li>
+            <li><a class="dropdown-item" href="#">Pintura
+              </a></li>
+
+            <li><a class="dropdown-item" href="#">Tecido
+              </a></li>
+
+            <li><a class="dropdown-item" href="#">Velas
+              </a></li>
+            <hr class="dropdown-divider">
+            <li><a class="dropdown-item" href="#">Todas as categorias</a></li>
+          </ul>
+        </li>
+
         <li class="nav-item">
-          <a
-            class="nav-link"
-            routerLink="/about-us"
-            routerLinkActive="active"
-            aria-current="page"
-          >
+          <a class="nav-link" routerLink="/about-us" routerLinkActive="active" aria-current="page">
             Sobre
           </a>
         </li>
 
         <li class="nav-item">
-          <a
-            class="nav-link"
-            routerLink="/contact"
-            routerLinkActive="active"
-            aria-current="page"
-          >
+          <a class="nav-link" routerLink="/contact" routerLinkActive="active" aria-current="page">
             Contato
           </a>
         </li>
